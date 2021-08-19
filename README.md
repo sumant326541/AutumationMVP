@@ -11,7 +11,7 @@ scripts": {
     "docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome"
   }
   
-####  Docker container execution
+### Docker container execution
 #### Steps:
 - start docker engine.
 - clone source code from git https://github.com/sumant326541/AutumationMVP/tree/master
@@ -19,7 +19,7 @@ scripts": {
 ```sh
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome
 ```
-or 
+or run script
 
 ```sh
 npm run docker
