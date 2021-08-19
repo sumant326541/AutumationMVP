@@ -1,4 +1,4 @@
-# Westwing Automation with BDD cucumber and Cypress
+#Automation MVP with BDD cucumber and Cypress
 
 ## Test Execution
 ####  Docker container execution
