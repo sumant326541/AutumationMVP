@@ -131,7 +131,8 @@ https://drive.google.com/file/d/1kzlj-fQKIE4Jvr2tKWOfzbQEkCx7ZTZn/view?usp=shari
 ### Override config propery value
 - default value of Config parameter can be overriden  by updating value in cypress.json file.
 ### Test data
-- test data has been maintained nside fixture folder.
+- I have parameterised test case using ScenerioOutline in feture file and executed same login scenerio with different set of dat
+- Test data can be also used from a json file maintained inside fixture folder.
 ### Plugin
 - external supported plugging can be added in index.js file present in plugins folder
 
