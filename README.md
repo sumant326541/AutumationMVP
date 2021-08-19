@@ -1,6 +1,12 @@
-#Automation MVP with BDD cucumber and Cypress
+# Task 1: Bug report of given screenshot of a Form. 
 
-## Test Execution
+
+
+## Tast 2: Automation scenarios of choice using https://www.saucedemo.com/.
+
+### solution: Automation Test script with BDD cucumber and Cypress
+
+### Test Execution:
 
 ### added shorcut script command for execution in package.json  
 ```sh
