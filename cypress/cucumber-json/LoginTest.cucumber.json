@@ -23,7 +23,7 @@
             "name": "User is on Swaglab Login page",
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 1063000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "User enter username \"standard_user\" and password \"secret_sauce\" in text field",
             "result": {
               "status": "passed",
-              "duration": 654000000
+              "duration": 810000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "User tap on login button",
             "result": {
               "status": "passed",
-              "duration": 124000000
+              "duration": 274000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "User should navigate to Products page",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 28000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "User should able to see the specic product image",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 75000000
             }
           }
         ]
@@ -83,7 +83,7 @@
             "name": "User is on Swaglab Login page",
             "result": {
               "status": "passed",
-              "duration": 146000000
+              "duration": 704000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "User enter username \"problem_user\" and password \"secret_sauce\" in text field",
             "result": {
               "status": "passed",
-              "duration": 607000000
+              "duration": 817000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "User tap on login button",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 170000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "User should navigate to Products page",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 16000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "User should able to see the specic product image",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 15000ms: expected '/static/media/sl-404.168b1cce.jpg' to equal '/static/media/sauce-backpack-1200x1500.34e7aa42.jpg'\n    + expected - actual\n\n    -'/static/media/sl-404.168b1cce.jpg'\n    +'/static/media/sauce-backpack-1200x1500.34e7aa42.jpg'\n\n    at ProductPage.verifySauceLabsBackpackImage (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:201:59)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:71:15)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:10684:9)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:10013:35)"
+              "error_message": "AssertionError: Timed out retrying after 15000ms: expected '/static/media/sl-404.168b1cce.jpg' to equal '/static/media/sauce-backpack-1200x1500.34e7aa42.jpg'\n    + expected - actual\n\n    -'/static/media/sl-404.168b1cce.jpg'\n    +'/static/media/sauce-backpack-1200x1500.34e7aa42.jpg'\n\n    at ProductPage.verifySauceLabsBackpackImage (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:201:59)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:71:15)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:10681:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/integration/Test/BDD/LoginTest.feature:10013:35)"
             }
           }
         ]
@@ -143,7 +143,7 @@
             "name": "User is on Swaglab Login page",
             "result": {
               "status": "passed",
-              "duration": 173000000
+              "duration": 662000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "User enter username \"performance_glitch_user\" and password \"secret_sauce\" in text field",
             "result": {
               "status": "passed",
-              "duration": 759000000
+              "duration": 1137000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "User tap on login button",
             "result": {
               "status": "passed",
-              "duration": 5124000000
+              "duration": 5281000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "User should navigate to Products page",
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 59000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "User should able to see the specic product image",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 95000000
             }
           }
         ]
@@ -203,7 +203,7 @@
             "name": "User is on Swaglab Login page",
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 969000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "User enter username \"locked_out_user\" and password \"secret_sauce\" in text field",
             "result": {
               "status": "passed",
-              "duration": 653000000
+              "duration": 803000000
             }
           },
           {
@@ -223,7 +223,7 @@
             "name": "User tap on login button",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 151000000
             }
           },
           {
@@ -233,7 +233,7 @@
             "name": "User should see error message \"Epic sadface: Sorry, this user has been locked out.\" on login page",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 19000000
             }
           }
         ]
