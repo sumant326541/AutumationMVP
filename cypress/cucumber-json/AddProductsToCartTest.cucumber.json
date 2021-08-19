@@ -23,7 +23,7 @@
             "name": "User is on Swaglab Login page",
             "result": {
               "status": "passed",
-              "duration": 1169000000
+              "duration": 658000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "User enter username \"standard_user\" and password \"secret_sauce\" in text field",
             "result": {
               "status": "passed",
-              "duration": 884000000
+              "duration": 665000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "User tap on login button",
             "result": {
               "status": "passed",
-              "duration": 324000000
+              "duration": 129000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "User should navigate to Products page",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 23000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "User tap on first product Add To Cart Button",
             "result": {
               "status": "passed",
-              "duration": 273000000
+              "duration": 145000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "User should see product count updated to shopping cart badge",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 23000000
             }
           }
         ]
