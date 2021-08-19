@@ -70,7 +70,7 @@ The above command will run the test case in headless chrome.
 ```
 ####  Local execution
 
-Open project directory in terminal and run command to install all plugins and dependencies mentioned in package.json file.
+Import project directory in any editor (prefered Visual stidio code) and open terminal then run command to install all plugins and dependencies mentioned in package.json file.
 ```sh
 npm install 
 ```
