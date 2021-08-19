@@ -2,9 +2,9 @@
 
 
 
-## Tast 2: Automation scenarios of choice using https://www.saucedemo.com/.
+# Tast 2: Automation scenarios of choice using https://www.saucedemo.com/.
 
-### solution: Automation Test script with BDD cucumber and Cypress
+## Solution: Automation Test script with BDD cucumber and Cypress
 
 ### Test Execution:
 
