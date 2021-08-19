@@ -4,7 +4,7 @@
 ####  Docker container execution
 #### Steps:
 - start docker engine.
-- clone source code from git https://github.com/sumant326541/WestWingAutomation.git
+- clone source code from git https://github.com/sumant326541/AutumationMVP/tree/master
 - run the below command from root directory.
 ```sh
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome
