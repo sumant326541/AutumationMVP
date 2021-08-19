@@ -1,8 +1,14 @@
 # Task 1: Bug report of given screenshot of a Form. 
 
+### Bug1:https://github.com/sumant326541/AutumationMVP/issues/1
+### Bug1:https://github.com/sumant326541/AutumationMVP/issues/2
+### Bug1:https://github.com/sumant326541/AutumationMVP/issues/3
+### Bug1:https://github.com/sumant326541/AutumationMVP/issues/4
+### Observation:https://github.com/sumant326541/AutumationMVP/issues/1
 
+# Tast 2: Automation scenarios of choice using 
 
-# Tast 2: Automation scenarios of choice using https://www.saucedemo.com/.
+https://www.saucedemo.com/.
 
 ## Solution: Automation Test script with BDD cucumber and Cypress
 
