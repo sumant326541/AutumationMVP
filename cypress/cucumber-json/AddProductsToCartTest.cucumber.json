@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    User Can add product to cart",
+    "keyword": "Feature",
+    "name": "Add Products to Cart",
+    "line": 1,
+    "id": "add-products-to-cart",
+    "tags": [],
+    "uri": "AddProductsToCartTest.feature",
+    "elements": [
+      {
+        "id": "add-products-to-cart;add-products-to-cart",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add products to cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on Swaglab Login page",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter username \"standard_user\" and password \"secret_sauce\" in text field",
+            "result": {
+              "status": "passed",
+              "duration": 695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User tap on login button",
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should navigate to Products page",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User tap on first product Add To Cart Button",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should see product count updated to shopping cart badge",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

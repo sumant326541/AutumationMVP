@@ -1,0 +1,12 @@
+{
+    "defaultCommandTimeout":15000,
+    "chromeWebSecurity": false,
+    "pageLoadTimeout":15000,
+    "testFiles": "**/*.feature",
+    "firefoxWebSecurity": false
+
+    
+    
+  
+      
+}
