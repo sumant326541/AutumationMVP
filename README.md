@@ -1,14 +1,37 @@
-# Westwing Automation with BDD cucumber and Cypress
+#Automation MVP with BDD cucumber and Cypress
 
 ## Test Execution
-####  Docker container execution
+
+### added shorcut script command for execution in package.json  
+```sh
+
+scripts": {
+
+    "all": "node_modules/.bin/cypress run",
+    
+    "chrome": "node_modules/.bin/cypress run --browser chrome",
+    
+    "firefox": "node_modules/.bin/cypress run --browser firefox",
+    
+    "docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome"
+    
+  }
+  ```
+  
+### Docker container execution
 #### Steps:
 - start docker engine.
-- clone source code from git https://github.com/sumant326541/WestWingAutomation.git
+- clone source code from git https://github.com/sumant326541/AutumationMVP/tree/master
 - run the below command from root directory.
 ```sh
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome
 ```
+or run script
+
+```sh
+npm run docker
+```
+
 The above command will run the test case in headless chrome.
 #### Explanation of the "docker run" command line arguments:
 ```sh
@@ -28,8 +51,6 @@ npm install
 ```
 Run all .feature files available
 ```sh
-cypress run
-or
 node_modules/.bin/cypress run
 ```
 Run specific feature 
@@ -38,25 +59,21 @@ node_modules/.bin/cypress run --spec "/path/.feature"
 ```
 Run test on chrome browser
 ```sh
-cypress run --browser chrome
-or
 node_modules/.bin/cypress run --browser chrome
 ```
 
 Run test on firefox browser
 ```sh
-cypress run --browser firefox
-or
 node_modules/.bin/cypress run --browser firefox
 ```
 Run test on cypress runner
 open cypress runner with below command.
 ```sh
-cypress open
-or
 node_modules/.bin/cypress open
 ```
 Tap on specific .feature file to be executed.
+
+
 ## Report 
 
 - A json report will be generated in cucumber-jason folder after test execution.
@@ -66,15 +83,22 @@ Tap on specific .feature file to be executed.
  node cucumber-html-report.js
 ```
 ### html report generated
-### https://sumant.tiiny.site/
+https://sumantreport.tiiny.site/
 
 ### Screen Recording
 Screen recording will be generated in the videos folder.
-https://drive.google.com/file/d/1OlZF_hKYUck1AKBqFNOqMVVM_5KuQaHb/view?usp=sharing
+
+Feature 1 : Login Feature Test
+
+https://drive.google.com/file/d/1YxpeCkvlvfbY54bOc1NT7bn9Bh4wUpnh/view?usp=sharing
+
+Feature 2 :Add products to cart
+
+https://drive.google.com/file/d/1wl-X9SGJ4f63Bq5w2QT5oG5UlIuJME6L/view?usp=sharing
 
 ### ScreenShot
 Screenshot of failed steps will be generated in the screenshots folder.
-https://drive.google.com/file/d/1SmNaJt4UZ-tcAP6Stsb6cVnzGpi94A05/view?usp=sharing
+https://drive.google.com/file/d/1kzlj-fQKIE4Jvr2tKWOfzbQEkCx7ZTZn/view?usp=sharing
 
 ## Framework overview:
 
