@@ -16,11 +16,11 @@ https://www.saucedemo.com/.
 
 ## Solution: Automation Test script with BDD cucumber and Cypress
 
--Feature : Login Feature Test
-    -Scenario:  Login With Valid Credential
-    -Scenario: Login With blocked user
--Feature : Add Products to Cart
-    -Scenario:  Add products to cart
+- Feature : Login Feature Test
+    - Scenario:  Login With Valid Credential
+    - Scenario: Login With blocked user
+- Feature : Add Products to Cart
+    - Scenario:  Add products to cart
 
 ### Test Execution:
 
