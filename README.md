@@ -3,13 +3,20 @@
 ## Test Execution
 
 ### added shorcut script command for execution in package.json  
+```sh
 
 scripts": {
+
     "all": "node_modules/.bin/cypress run",
+    
     "chrome": "node_modules/.bin/cypress run --browser chrome",
+    
     "firefox": "node_modules/.bin/cypress run --browser firefox",
+    
     "docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome"
+    
   }
+  ```
   
 ### Docker container execution
 #### Steps:
