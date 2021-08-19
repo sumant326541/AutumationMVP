@@ -9,7 +9,7 @@
 
 Bug tracking: https://github.com/sumant326541/AutumationMVP/projects/1
 
-# Tast 2: Automation scenarios of choice using 
+# Tast 2: Automation scenarios of my choice using 
 
 https://www.saucedemo.com/.
 
