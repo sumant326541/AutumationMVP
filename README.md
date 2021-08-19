@@ -1,3 +1,5 @@
+<img width="100" alt="Screenshot 2021-06-29 at 8 12 27 AM" src="https://user-images.githubusercontent.com/39675511/123728969-d2a87b00-d8b1-11eb-9ece-558d4021f816.png">
+
 # Task 1: Bug report of given screenshot of a Form. 
 ### solution : https://github.com/sumant326541/AutumationMVP/issues
 
