@@ -1,6 +1,16 @@
 #Automation MVP with BDD cucumber and Cypress
 
 ## Test Execution
+
+### added shorcut script command for execution in package.json  
+
+scripts": {
+    "all": "node_modules/.bin/cypress run",
+    "chrome": "node_modules/.bin/cypress run --browser chrome",
+    "firefox": "node_modules/.bin/cypress run --browser firefox",
+    "docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome"
+  }
+  
 ####  Docker container execution
 #### Steps:
 - start docker engine.
@@ -9,6 +19,12 @@
 ```sh
 docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.2.1 --browser chrome
 ```
+or 
+
+```sh
+npm run docker
+```
+
 The above command will run the test case in headless chrome.
 #### Explanation of the "docker run" command line arguments:
 ```sh
@@ -49,6 +65,8 @@ open cypress runner with below command.
 node_modules/.bin/cypress open
 ```
 Tap on specific .feature file to be executed.
+
+
 ## Report 
 
 - A json report will be generated in cucumber-jason folder after test execution.
