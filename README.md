@@ -1,10 +1,10 @@
 # Task 1: Bug report of given screenshot of a Form. 
 
 - Bug1: https://github.com/sumant326541/AutumationMVP/issues/1
- Bug2: https://github.com/sumant326541/AutumationMVP/issues/2
- Bug3: https://github.com/sumant326541/AutumationMVP/issues/3
- Bug4: https://github.com/sumant326541/AutumationMVP/issues/4
- Observation: https://github.com/sumant326541/AutumationMVP/issues/5
+- Bug2: https://github.com/sumant326541/AutumationMVP/issues/2
+- Bug3: https://github.com/sumant326541/AutumationMVP/issues/3
+- Bug4: https://github.com/sumant326541/AutumationMVP/issues/4
+- Observation: https://github.com/sumant326541/AutumationMVP/issues/5
 
 Bug tracking: https://github.com/sumant326541/AutumationMVP/projects/1
 
