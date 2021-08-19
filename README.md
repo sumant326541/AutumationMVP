@@ -28,8 +28,6 @@ npm install
 ```
 Run all .feature files available
 ```sh
-cypress run
-or
 node_modules/.bin/cypress run
 ```
 Run specific feature 
@@ -38,22 +36,16 @@ node_modules/.bin/cypress run --spec "/path/.feature"
 ```
 Run test on chrome browser
 ```sh
-cypress run --browser chrome
-or
 node_modules/.bin/cypress run --browser chrome
 ```
 
 Run test on firefox browser
 ```sh
-cypress run --browser firefox
-or
 node_modules/.bin/cypress run --browser firefox
 ```
 Run test on cypress runner
 open cypress runner with below command.
 ```sh
-cypress open
-or
 node_modules/.bin/cypress open
 ```
 Tap on specific .feature file to be executed.
