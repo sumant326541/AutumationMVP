@@ -118,3 +118,6 @@ https://drive.google.com/file/d/1kzlj-fQKIE4Jvr2tKWOfzbQEkCx7ZTZn/view?usp=shari
 ### Plugin
 - external supported plugging can be added in index.js file present in plugins folder
 
+### .gitignore
+- we can update all unnessasory file name in to this file to prevent them to push in to git repo
+
