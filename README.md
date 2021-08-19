@@ -66,15 +66,19 @@ Tap on specific .feature file to be executed.
  node cucumber-html-report.js
 ```
 ### html report generated
-### https://sumant.tiiny.site/
+### sumantreport.tiiny.site
 
 ### Screen Recording
 Screen recording will be generated in the videos folder.
-https://drive.google.com/file/d/1OlZF_hKYUck1AKBqFNOqMVVM_5KuQaHb/view?usp=sharing
+Feature 1 : Login Feature Test
+https://drive.google.com/file/d/1YxpeCkvlvfbY54bOc1NT7bn9Bh4wUpnh/view?usp=sharing
+
+Feature 1 :Add products to cart
+https://drive.google.com/file/d/1wl-X9SGJ4f63Bq5w2QT5oG5UlIuJME6L/view?usp=sharing
 
 ### ScreenShot
 Screenshot of failed steps will be generated in the screenshots folder.
-https://drive.google.com/file/d/1SmNaJt4UZ-tcAP6Stsb6cVnzGpi94A05/view?usp=sharing
+https://drive.google.com/file/d/1kzlj-fQKIE4Jvr2tKWOfzbQEkCx7ZTZn/view?usp=sharing
 
 ## Framework overview:
 
