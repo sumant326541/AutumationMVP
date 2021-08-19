@@ -25,7 +25,7 @@ https://www.saucedemo.com/.
 
 ### Test Execution:
 
-### added shorcut script command for execution in package.json  
+### added shorcut script command in package.json for different test execution  
 ```sh
 
 scripts": {
